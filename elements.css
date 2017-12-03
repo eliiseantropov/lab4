@@ -1,0 +1,150 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2,h3 {
+	font-weight: 900;
+	font-family: 'Lato', sans-serif;
+}
+
+h3 {
+	margin: 10px 0px;
+}
+
+h1 {
+	color: #fff;
+	padding-top: 40px;
+}
+
+p{
+	font-family: 'Lato', sans-serif;
+}
+
+header{
+	font-family: 'Lato', sans-serif;
+	background-image: url("books3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.wrap, #topmenu, h1{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#topmenu{
+	list-style-type: none;
+	overflow: hidden;
+}
+
+#topmenu a{
+	display: block;
+	text-decoration: none;
+	margin: 14px 5px 14px 0px;
+    padding: 10px;
+	font-size: 14px;
+	float: left;
+	color: #fff;
+}
+
+#topmenu a:hover {
+	background-color: #b8b098;
+	
+}
+
+#wrap_columns {
+	overflow: hidden;
+}
+
+#column1, #column2 {
+	float: left;
+	width: 50%;
+}
+
+#column2 > img {
+	width: 400px;
+	height: auto;
+	padding-left: 80px;
+}
+
+#list-items {
+	list-style-type: none;
+}
+
+#list-items  a {
+	text-decoration: none;
+	color: 000;
+}
+
+button {
+	background-color: #ddd;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#message {
+	height: 200px;
+	width: 200px;
+}
+
+.active {
+	background-color: #b8b098;
+}
+
+.style-upload{
+	border: 1px solid #b8b098;
+	padding: 10px;
+}
+
+.style-submit{
+	background-color: #b8b098;
+    border: none;
+    color: white;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.upload-form{
+	display: flex;
+    flex-direction: row;
+}
+
+tr, td {
+    padding: 5px;
+}
+
+#gallery{
+	margin: 40px 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+footer{
+	background: #eeeeee;
+	padding: 15px;
+	margin-top: 80px;
+}
+
+#back{
+	background-color: #b8b098;
+	padding: 10px;
+	margin-bottom: 20px;
+	color: #fff;
+	width: 270px;
+	font-size: 14px;
+
+}
+
+
+footer > p {
+	color: #666666;
+}
